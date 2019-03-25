@@ -6,7 +6,7 @@
     </rosparam>
     
     <include file="$(find mmw_robot)/launch/world.launch" />
-    <include file="$(find mmw_robot)/launch/amcl.launch" />
-    <include file="$(find mmw_robot)/launch/mapping.launch" />
-<!--     <include file="$(find mmw_robot)/launch/rviz.launch" /> -->
+    <include file="$(find mmw_robot)/launch/localization.launch" />
+    <include file="$(find mmw_robot)/launch/move_base.launch" />
+    <include file="$(find mmw_robot)/launch/rviz.launch" />
 </launch>
