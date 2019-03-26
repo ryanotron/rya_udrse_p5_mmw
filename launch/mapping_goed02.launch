@@ -39,7 +39,7 @@
       <param name="Kp/DetectorStrategy" type="string" value="0"/>
 
       <!-- Maximum visual words per image (bag-of-words) -->
-      <param name="Kp/MaxFeatures" type="string" value="100"/>
+      <param name="Kp/MaxFeatures" type="string" value="200"/>
 
       <!-- Used to extract more or less SURF features -->
       <param name="SURF/HessianThreshold" type="string" value="100"/>

@@ -177,7 +177,7 @@ Visualization Manager:
       Color: 255; 0; 0
       Color Transformer: FlatColor
       Decay Time: 0
-      Enabled: true
+      Enabled: false
       Invert Rainbow: false
       Max Color: 255; 255; 255
       Max Intensity: 0
@@ -194,7 +194,7 @@ Visualization Manager:
       Unreliable: false
       Use Fixed Frame: true
       Use rainbow: false
-      Value: true
+      Value: false
     - Alpha: 0.699999988
       Class: rviz/Map
       Color Scheme: costmap
@@ -332,14 +332,14 @@ Visualization Manager:
       Yaw: 1.20539856
     Saved: ~
 Window Geometry:
-  "&Camera RGB":
+  "&Camera Depth":
     collapsed: false
+  "&Displays":
+    collapsed: true
   "&Time":
     collapsed: false
-  Camera &Depth:
+  Camera &RGB:
     collapsed: false
-  D&isplays:
-    collapsed: true
   Displays:
     collapsed: false
   Height: 1411
@@ -353,5 +353,5 @@ Window Geometry:
   Views:
     collapsed: false
   Width: 1276
-  X: 1276
+  X: 1268
   Y: 0
